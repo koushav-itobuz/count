@@ -1,6 +1,6 @@
 const num1 = document.getElementById("num1");
 let val = Number (num1.innerText);
-console.log(typeof(val));
+
 
 
 function reset () {
@@ -13,14 +13,12 @@ function increase () {
   val += 1;
   num1.innerHTML= val;
   update();
- 
 }
 
 function decrease () {
   val -= 1;
   num1.innerHTML = val;
   update();
-  
 }
 
 function update () {
